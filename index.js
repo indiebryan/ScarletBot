@@ -1,3 +1,8 @@
+/*
+*   rh.js
+*   Contains calls to Robinhood API using Axios functionality
+*/
+
 //Use Robinhood calls stored in local rh.js
 require('./rh')();
 
@@ -42,11 +47,11 @@ bot.on("message", async function(message){
 
             //Pass stock symbol to rh.js and retrieve quote data
             let response = await getQuote(symbol);
-            
+
             //Add emoji flavor
             response = formatQuote(response);
 
-            message.reply(response[0]);
+            message.reply(response);
         }
 
         //Quote coin
@@ -58,7 +63,7 @@ bot.on("message", async function(message){
             
             response = formatQuote(response);
 
-            message.reply(response[0]);
+            message.reply(response);
         }
 
         //TODO: Allow users to have separate watchlists
