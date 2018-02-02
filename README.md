@@ -3,6 +3,8 @@ A Discord bot which interfaces with Robinhood API and CoinMarketCap API in order
 
 Written by Bryan C from [IndieProgrammer.com](http://indieprogrammer.com/), [Youtube.com/IndieProgrammer](https://www.youtube.com/user/IndieProgrammer)
 
+![alt text](https://i.imgur.com/1tIHGTL.png "Scarlet Bot Example Image")
+
 ## Features / Commands
 - Type `!quote SYMBOL` to get a real time stock quote using Robinhood's API
 - Type `!crypto SYMBOL` or `!crypto NAME` to get a real time cryptocurrency quote using CoinMarketCap's API
