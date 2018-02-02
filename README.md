@@ -15,5 +15,5 @@ Written by Bryan C from [IndieProgrammer.com](http://indieprogrammer.com/), [You
 - Requesting a quote for a cryptocurrency that doesn't exist will cause an error with no message to the user
 - Stocks that do not exist can be added to your watchlist, which will cause an error when the `!list` command is used
 
-### Waiver
+## Waiver
 At this stage, the code in this repository likely contains many flaws, both known and unknown.  The code presented here is purely for educational purposes.
